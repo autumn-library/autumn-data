@@ -1,0 +1,19 @@
+{
+    "codeLens": {
+        "testRunner": {
+            "executable": "oneunit",
+            "executableWin": "oneunit.bat",
+            "getTestsArguments": "d --file %s",
+            "runAllTestsArguments": "e --file %s --genericCoverage out/genericCoverage.xml --openTestReport out/otr.xml --cobertura out/cobertura.xml",
+            "runTestArguments": "e --file %s -m %s --genericCoverage out/genericCoverage.xml --openTestReport out/otr.xml --cobertura out/cobertura.xml",
+            "getTestsResultPattern": "^\\s{5}[└|├]─\\s([^\\s]+)\\s*$"
+        }
+    },
+    "diagnostics": {
+        "parameters": {
+            "IncorrectLineBreak": {
+                "listOfIncorrectFirstSymbol": "\\)|,\\s*\\S+|\\)s*;\\s*\\S+"
+            }
+        }
+    }
+}
