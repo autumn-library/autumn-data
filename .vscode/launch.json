@@ -16,7 +16,7 @@
                 "runtimeExecutable": "${env:OSCRIPTBIN}/oscript.exe"
             },
             "linux": {
-                "runtimeExecutable": "/home/nfedkin/.local/share/ovm/current/bin/oscript"
+                "runtimeExecutable": "${env:OSCRIPTBIN}/oscript"
             },
             "osx": {
                 "runtimeExecutable": "${env:OSCRIPTBIN}/oscript"
