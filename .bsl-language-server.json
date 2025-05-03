@@ -9,6 +9,7 @@
             "getTestsResultPattern": "^[^.]+\\.([^\\s]+).*$"
         }
     },
+    "sendErrors": "send",
     "diagnostics": {
         "parameters": {
             "IncorrectLineBreak": {
