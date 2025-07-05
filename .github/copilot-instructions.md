@@ -13,13 +13,13 @@
 Для запуска тестов используется команда:
 
 ```sh
-oneunit e --mode tree
+oscript_modules/bin/oneunit e --mode tree
 ```
 
 Для запуска тестов с замером покрытия используется команда:
 
 ```sh
-oneunit e \
+oscript_modules/bin/oneunit e \
             --mode tree \
             --genericExecution out/genericExecution.xml \
             --genericCoverage out/genericCoverage.xml \
