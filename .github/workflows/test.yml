@@ -9,4 +9,4 @@ jobs:
   test:
     uses: autumn-library/workflows/.github/workflows/test.yml@oneunit
     with:
-      os_versions: "ubuntu-latest windows-latest"
+      os_versions: '["ubuntu-latest", "windows-latest"]'
