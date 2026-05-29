@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    uses: autumn-library/workflows/.github/workflows/test.yml@main
+    uses: autumn-library/workflows/.github/workflows/test.yml@claude-test-sonar-skip-pr-logic-0LkTJ 
     with:
       os_versions: '["ubuntu-latest", "windows-latest"]'
       test_engine: oneunit
