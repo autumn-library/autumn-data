@@ -10,7 +10,4 @@ jobs:
     uses: autumn-library/workflows/.github/workflows/test.yml@main 
     with:
       os_versions: '["ubuntu-latest", "windows-latest"]'
-      # entity 4.4 ведет контекст в данных потока исполнения (ТекущийПоток),
-      # а эта функция есть пока только в dev-сборке OneScript.
-      oscript_version: dev
       test_engine: oneunit

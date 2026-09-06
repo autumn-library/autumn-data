@@ -10,9 +10,6 @@ jobs:
     uses: autumn-library/workflows/.github/workflows/sonar.yml@main
     with:
       github_repository: autumn-library/autumn-data
-      # entity 4.4 ведет контекст в данных потока исполнения (ТекущийПоток),
-      # а эта функция есть пока только в dev-сборке OneScript.
-      oscript_version: dev
       coveralls: true
       test_engine: oneunit
     secrets:
